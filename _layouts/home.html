@@ -1,0 +1,87 @@
+{% include header.html %}
+
+<section class="hero">
+    <div class="container">
+        <h1 class="hero__headline">London’s response to the coronavirus pandemic (COVID-19)</h1>
+        <hr class="hero__divider"/>
+        <p>This is a website about our response to the coronavirus pandemic. Here you can see all our work. We are working with lots of councils and stakeholders to make change happen at the speed we need it to.</p>
+        <p>We’re building on previous work as much as possible and you can keep up to date with what we’re all doing from here.</p>
+        <div class="actions">
+            <a class="actions__button" href="#">
+                Read the full statement
+            </a>
+            <a class="actions__button actions__button--primary" href="#">
+                Join the project
+            </a>
+        </div>
+    </div>    
+</section>
+
+<section class="partnerships">
+    <div class="container">
+        <p>In partnership with</p>
+        <div class="partnerships__logos">
+            <img src="/assets/1.svg" class="partnerships__logo" alt=""/>
+            <img src="/assets/2.svg" class="partnerships__logo" alt=""/>
+            <img src="/assets/3.svg" class="partnerships__logo" alt=""/>
+            <img src="/assets/4.svg" class="partnerships__logo" alt=""/>
+        </ul>
+    </div>
+</section>
+
+<div class="main-content">
+
+    <section class="promos" id="products">
+        <div class="container">
+            <h2 class="promos__title">Products</h2>
+            <p>All these are open source and open to re-use</p>
+            <ul class="promo-list">
+                {% for post in site.categories["product"] %}
+                    <li class="promo">
+                        <a class="promo__link" href="{{ post.permalink }}">
+                            <h3 class="promo__title">{{ post.title }}</h3>
+                            <p class="promo__caption">{{ post.date | date_to_string }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="promos" id="slides">
+        <div class="container">
+            <h2 class="promos__title">Slides</h2>
+            <ul class="promo-list">
+                {% for slides in site.data.slides %}
+                    <li class="promo">
+                        <a class="promo__link" href="{{ slides.url }}">
+                            <h3 class="promo__title">{{ slides.title }}</h3>
+                            <p class="promo__caption">{{ slides.caption }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="promos" id="blog">
+        <div class="container">
+            <h2 class="promos__title">Blog posts</h2>
+            <ul class="promo-list">
+                {% for post in site.categories["blog"] %}
+                    <li class="promo">
+                        <a class="promo__link" href="{{ post.permalink }}">
+                            <h3 class="promo__title">{{ post.title }}</h3>
+                            <p class="promo__caption">{{ post.date | date_to_string }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+{% include footer.html %}

@@ -1,0 +1,294 @@
+---
+---
+
+$green: #87DAC9;
+$black: #170710;
+$grey: #4F4E4F;
+$pale: #F4F2F3;
+$white: #ffffff;
+$yellow: #F7C745;
+$m-breakpoint: 500px;
+$l-breakpoint: 800px;
+
+*{
+    font-family: proxima-nova, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 900;
+    color: $black;
+}
+
+p{
+    line-height: 1.5;
+    color: $black;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background: $green;
+    padding: 20px;
+    .site-header__inner{
+        @media screen and (min-width: $l-breakpoint){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .site-header__menu{
+        display: none;
+        @media screen and (min-width: $l-breakpoint){
+            display: block;
+        }
+    }
+    .site-header__menu-link{
+        font-size: 1.7rem;
+        color: $black;
+        font-weight: 900;
+        text-decoration: none;
+        margin-right: 7px;
+        &:last-of-type{
+            margin-right: 0px;;
+        }
+        &:hover{
+            text-decoration: underline;
+        }
+        &:focus{
+            background: $yellow;
+            outline: 3px solid $yellow;
+        }
+    }
+}
+
+.site-footer{
+    background: $black;
+    color: $white;
+    text-align: center;
+    padding: 70px 20px;
+    font-size: 1.1rem;
+    .site-footer__link{
+        font-weight: bold;
+        text-decoration: none;
+        color: $white;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:focus{
+            color: $black;
+            background: $yellow;
+            outline: 3px solid $yellow;
+        }
+    }
+}
+
+.hero{
+    background: $green;
+    padding: 20px 20px 40px 20px;
+    @media screen and (min-width: $l-breakpoint) {
+        padding: 40px 20px 60px 20px;
+    }
+    .hero__headline{
+        font-size: 2.8rem;
+        line-height: 1.1;
+        @media screen and (min-width: $m-breakpoint) {
+            font-size: 3.5rem;
+            max-width: 66.67%;
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 4rem;
+        }
+    }
+    .hero__divider{
+        border: none;
+        border-bottom: 5px solid $black;
+        margin: 40px 0px;
+        max-width: 150px;
+    }
+    p{
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 1.2rem;
+            max-width: 66.67%;
+        }   
+    }
+}
+
+.actions{
+    margin-top: 40px;
+    .actions__button{
+        text-align: center;
+        display: block;
+        font-weight: bold;
+        color: $black;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 15px;
+        width: 100%;
+        border: 5px solid $black;
+        margin-bottom: 15px;
+        &:focus{
+            outline: 5px solid $yellow;
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            width: initial;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 15px 25px;
+        }
+    }
+    .actions__button--primary{
+        background: $black;
+        color: $green;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &:after{
+            content: "";
+            background-image: url("/assets/forward.svg");
+            display: inline-block;
+            width: 18px;
+            height: 26px;
+            margin-left: 15px;
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            display: inline-flex;
+        }
+    }
+}
+
+.partnerships{
+    padding: 40px 20px;
+    background: $pale;
+    @media screen and (min-width: $m-breakpoint) {
+        padding: 70px 20px;
+    }
+    .partnerships__logos{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: -25px;
+        margin-top: 20px;
+    }
+    .partnerships__logo{
+        width: calc(50% - 17.5px);
+        display: inline-block;
+        margin-right: 35px;
+        margin-bottom: 30px;
+        &:nth-of-type(even){
+            margin-right: 0px;
+        }
+        @media screen and (min-width: $m-breakpoint) {
+            width: calc(33.33% - 26.25px);
+            margin-right: 35px;
+            &:nth-of-type(even){
+                margin-right: 35px;
+            }
+            &:nth-of-type(3n){
+                margin-right: 0px;
+            }
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            width: calc(25% - 26.25px);
+            margin-right: 35px;
+            &:nth-of-type(even){
+                margin-right: 35px;
+            }
+            &:nth-of-type(3n){
+                margin-right: 35px;
+            }
+            &:nth-of-type(4n){
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+.main-content{
+    padding: 40px 20px;
+    @media screen and (min-width: $l-breakpoint) {
+        padding: 70px 20px;
+    }
+}
+
+.promos{
+    margin-bottom: 50px;
+    .promos__title{
+        font-size: 2rem;
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.promo-list{
+    margin-top: 20px;
+    list-style: none;
+    @media screen and (min-width: $m-breakpoint) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+.promo{
+    margin-bottom: 25px;
+    &:hover{
+        .promo__title{
+            text-decoration: underline;
+        }
+    }
+    @media screen and (min-width: $m-breakpoint) {
+        width: calc(50% - 10px);
+        margin-right: 20px;
+        &:nth-of-type(even){
+            margin-right: 0px;
+        }
+    }
+    @media screen and (min-width: $l-breakpoint) {
+        width: calc(33.33% - 13.33px);
+        margin-right: 20px;
+        &:nth-of-type(even){
+            margin-right: 20px;
+        }
+        &:nth-of-type(3n){
+            margin-right: 0px;
+        }
+    }
+    .promo__link{
+        display: block;
+        text-decoration: none;
+        border-top: 5px solid $black;
+        padding: 10px 0px;
+        &:focus{
+            background: $yellow;
+        }
+    }
+    .promo__title{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 1.4rem;
+        }
+    }
+    .promo__caption{
+        color: $grey;
+        margin-bottom: 0px;
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 1.2rem;
+        }
+    }
+}
