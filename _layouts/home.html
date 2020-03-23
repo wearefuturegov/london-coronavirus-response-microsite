@@ -38,7 +38,7 @@
             <ul class="promo-list">
                 {% for post in site.categories["product"] %}
                     <li class="promo">
-                        <a class="promo__link" href="{{ post.permalink }}">
+                        <a class="promo__link" href="{{ post.url }}">
                             <h3 class="promo__title">{{ post.title }}</h3>
                             <p class="promo__caption">{{ post.date | date_to_string }}</p>
                         </a>
@@ -47,7 +47,6 @@
             </ul>
         </div>
     </section>
-
 
     <section class="promos" id="slides">
         <div class="container">
@@ -65,14 +64,13 @@
         </div>
     </section>
 
-
     <section class="promos" id="blog">
         <div class="container">
             <h2 class="promos__title">Blog posts</h2>
             <ul class="promo-list">
                 {% for post in site.categories["blog"] %}
                     <li class="promo">
-                        <a class="promo__link" href="{{ post.permalink }}">
+                        <a class="promo__link" href="{{ post.url }}">
                             <h3 class="promo__title">{{ post.title }}</h3>
                             <p class="promo__caption">{{ post.date | date_to_string }}</p>
                         </a>

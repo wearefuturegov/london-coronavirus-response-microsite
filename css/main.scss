@@ -45,6 +45,16 @@ p{
             align-items: center;
         }
     }
+    .site-header__masthead{
+        display: block;
+        img{
+            display: block;
+        }
+        &:focus{
+            background: $yellow;
+            outline: 3px solid $yellow;
+        }
+    }
     .site-header__menu{
         display: none;
         @media screen and (min-width: $l-breakpoint){
@@ -289,6 +299,68 @@ p{
         margin-bottom: 0px;
         @media screen and (min-width: $l-breakpoint) {
             font-size: 1.2rem;
+        }
+    }
+}
+
+
+.page-header{
+    margin-bottom: 40px;
+    .page-header__caption{
+        text-transform: capitalize;
+        font-weight: 900;
+        color: $grey;
+        font-size: 2rem;
+        margin-bottom: 5px;
+        @media screen and (min-width: $l-breakpoint) {
+            max-width: 66.67%;
+        }
+    }
+    .page-header__headline{
+        font-size: 2.8rem;
+        line-height: 1.1;
+        @media screen and (min-width: $m-breakpoint) {
+            font-size: 3.5rem;
+            max-width: 66.67%;
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            font-size: 4rem;
+            max-width: 66.67%;
+        }
+    }
+}
+
+.page-content{
+
+    @media screen and (min-width: $m-breakpoint) {
+        p, li{
+            font-size: 1.2rem;
+        }
+    }
+    @media screen and (min-width: $l-breakpoint) {
+        max-width: 66.67%;
+    }
+
+    pre, figure, image{
+        margin-bottom: 16px;
+    }
+
+    a{
+        color: $black;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+        &:after{
+            content: "";
+            display: inline-block;
+            border-bottom: 5px solid transparentize($green, 0.5);
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100%;
+        }
+        &:hover:after{
+            border-bottom: 5px solid $green;
         }
     }
 }
