@@ -179,6 +179,7 @@ p{
 .partnerships{
     padding: 40px 20px;
     background: $pale;
+    text-align: center;
     @media screen and (min-width: $m-breakpoint) {
         padding: 70px 20px;
     }
@@ -303,7 +304,6 @@ p{
     }
 }
 
-
 .page-header{
     margin-bottom: 40px;
     .page-header__caption{
@@ -331,7 +331,6 @@ p{
 }
 
 .page-content{
-
     @media screen and (min-width: $m-breakpoint) {
         p, li{
             font-size: 1.2rem;
@@ -340,11 +339,9 @@ p{
     @media screen and (min-width: $l-breakpoint) {
         max-width: 66.67%;
     }
-
     pre, figure, image{
         margin-bottom: 16px;
     }
-
     a{
         color: $black;
         font-weight: bold;
