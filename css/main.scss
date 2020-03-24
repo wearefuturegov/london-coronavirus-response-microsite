@@ -308,8 +308,8 @@ p{
     margin-bottom: 40px;
     .page-header__caption{
         text-transform: capitalize;
-        font-weight: 900;
-        color: $grey;
+        // font-weight: 900;
+        // color: $grey;
         font-size: 2rem;
         margin-bottom: 5px;
         @media screen and (min-width: $l-breakpoint) {
