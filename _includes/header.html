@@ -9,7 +9,7 @@
 
         <meta property="og:type" content="website">
         <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-        <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt.strip_html }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
         <meta property="og:url" content="https://coronaviruslocalresponse.co.uk/">
         <meta property="og:image" content="https://coronaviruslocalresponse.co.uk/assets/share-image.png">
 
@@ -17,7 +17,7 @@
         <meta property="twitter:url" content="https://coronaviruslocalresponse.co.uk/">
         <meta property="twitter:image" content="https://coronaviruslocalresponse.co.uk/assets/share-image.png">
         <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-        <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt.strip_html }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
