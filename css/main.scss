@@ -327,6 +327,7 @@ p{
         padding: 10px 0px;
         &:focus{
             background: $yellow;
+            outline: none;
         }
     }
     .promo__title{
