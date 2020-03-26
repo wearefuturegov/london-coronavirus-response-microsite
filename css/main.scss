@@ -105,17 +105,17 @@ p{
     background: $green;
     padding: 20px 20px 40px 20px;
     @media screen and (min-width: $l-breakpoint) {
-        padding: 40px 20px 60px 20px;
+        padding: 50px 20px 70px 20px;
     }
     .hero__headline{
         font-size: 2.8rem;
         line-height: 1.1;
         @media screen and (min-width: $m-breakpoint) {
-            font-size: 3.5rem;
+            font-size: 4rem;
             max-width: 66.67%;
         }
         @media screen and (min-width: $l-breakpoint) {
-            font-size: 4rem;
+            font-size: 5rem;
         }
     }
     .hero__divider{
@@ -129,6 +129,47 @@ p{
             font-size: 1.2rem;
             max-width: 66.67%;
         }   
+    }
+}
+
+.button{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    color: $black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 15px;
+    width: 100%;
+    border: 5px solid $black;
+    margin-bottom: 15px;
+    &:focus{
+        outline: 5px solid $yellow;
+    }
+    @media screen and (min-width: $l-breakpoint) {
+        width: initial;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 15px 25px;
+    }
+    &.button--primary{
+        background: $black;
+        color: $white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &:after{
+            content: "";
+            background-image: url("/assets/forward-white.svg");
+            display: inline-block;
+            width: 18px;
+            height: 26px;
+            margin-left: 15px;
+        }
+        @media screen and (min-width: $l-breakpoint) {
+            display: inline-flex;
+        }
     }
 }
 
@@ -189,7 +230,7 @@ p{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         margin-bottom: -25px;
         margin-top: 20px;
     }
@@ -331,6 +372,18 @@ p{
 }
 
 .page-content{
+    h2, h3, h4, h5{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    ol, ul{
+        margin-left: 20px;
+    }
+    li{
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    
     @media screen and (min-width: $m-breakpoint) {
         p, li{
             font-size: 1.2rem;
@@ -338,32 +391,56 @@ p{
     }
     @media screen and (min-width: $l-breakpoint) {
         max-width: 66.67%;
+        p{
+            margin-bottom: 30px;
+        }
     }
     pre, figure, image{
         margin-bottom: 16px;
     }
     a{
-        color: $black;
-        font-weight: bold;
+        color: darken($green, 25);
         text-decoration: none;
         position: relative;
-        &:after{
-            content: "";
-            display: inline-block;
-            border-bottom: 5px solid transparentize($green, 0.5);
-            position: absolute;
-            bottom: -3px;
-            left: 0;
-            width: 100%;
-        }
-        &:hover:after{
-            border-bottom: 5px solid $green;
+        &:hover{
+            border-bottom: 2px solid darken($green, 25);
         }
         &:focus{
             background: $yellow;
-            &:after{
-                border-bottom: 5px solid $black;
-            }
         }
+    }
+    blockquote{
+        padding-left: 25px;
+        border-left: 5px solid $green;
+    }
+}
+
+.call-to-action{
+    margin-top: 40px;
+    background: $pale;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-bottom: -40px;
+    padding: 60px 20px;
+    @media screen and (min-width: $l-breakpoint) {
+        margin-top: 70px;
+        padding: 80px 20px;
+        margin-bottom: -70px;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 1.1;
+        @media screen and (min-width: $m-breakpoint) {
+            font-size: 2.2rem;
+        }
+    }
+
+    p{
+        margin: 20px 0px 30px 0px;
+        font-size: 1.2rem;
     }
 }
