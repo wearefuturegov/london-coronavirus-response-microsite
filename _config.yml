@@ -1,8 +1,8 @@
 permalink: /:categories/:title/
 
-title: London’s response to the coronavirus pandemic (COVID-19)
+title: Local response to coronavirus (COVID-19)
 email: hello@wearefuturegov.com
-description: This is a website about our response to the coronavirus pandemic. Here you can see all our work.
+description: We're building a team from local government, community groups and voluntary services for collective actionto address shared problems during an emergency unlike any other.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
