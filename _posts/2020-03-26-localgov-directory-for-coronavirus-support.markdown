@@ -3,7 +3,8 @@ title:  "A local gov directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
 permalink: /blog/:title
 ---
-*Written by Emma McGowan, Head of Digital Transformation at Camden Council and Ben Unsworth, Head of Digital at Buckinghamshire County Council*
+*Written by [Emma McGowan](https://twitter.com/Emm_McG), Head of Digital Transformation at Camden Council and 
+[Ben Unsworth](https://twitter.com/benunsworth), Head of Digital at Buckinghamshire County Council*
 
 We’re in an unprecedented civic emergency. The coronavirus is rapidly changing our daily lives across the UK, affecting everyone and particularly, the most vulnerable members of our communities.
 
