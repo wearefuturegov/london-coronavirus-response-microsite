@@ -1,7 +1,7 @@
 ---
 title:  "A local public services directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
-permalink: /blog/local public services directory coronavirus
+permalink: /blog/local-public-services-directory-coronavirus
 ---
 *Written by [Emma McGowan](https://twitter.com/Emm_McG), Head of Digital Transformation at Camden Council and 
 [Ben Unsworth](https://twitter.com/benunsworth), Head of Digital at Buckinghamshire County Council*
