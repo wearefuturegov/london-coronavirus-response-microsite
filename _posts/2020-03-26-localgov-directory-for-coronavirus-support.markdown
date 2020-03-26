@@ -1,5 +1,5 @@
 ---
-title:  "A local gov directory for coronavirus support"
+title:  "A local public services directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
 permalink: /blog/:title
 ---
@@ -26,7 +26,7 @@ This shared directory of local services brings together insight and data from di
 
 The code is fully open source and on Github: [take a look](http://github.com/wearefuturegov/camden-service-directory).
 
-Applying open data principles to building the directory, this platform is available and open for reuse by the rest of local government. While specific to the current coronavirus-related needs, it can be easily adapted to all services in a local area. 
+Applying open data principles to building the directory, this platform is available and open for reuse by the rest of local public services. While specific to the current coronavirus-related needs, it can be easily adapted to all services in a local area. 
 
 
 ## Join the coalition
