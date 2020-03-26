@@ -1,7 +1,6 @@
 ---
 title:  "A local gov directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
-categories: blog
 ---
 *Written by Emma McGowan, Head of Digital Transformation at Camden Council and Ben Unsworth, Head of Digital at Buckinghamshire County Council*
 
