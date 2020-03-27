@@ -3,7 +3,7 @@ title:  "A local public services directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
 permalink: /blog/local-public-services-directory-coronavirus
 ---
-**<a href="mailto:hello@wearefuturegov.com" onclick="gtag('event', 'Click', { 'event_category': 'Email' });">Get in touch for support to set up and run your directory.</a>**
+**<a href="mailto:hello@wearefuturegov.com" onclick="gtag('event', 'Click1', { 'event_category': 'Email' });">Get in touch for support to set up and run your directory.</a>**
 
 *Written by [Emma McGowan](https://twitter.com/Emm_McG), Head of Digital Transformation at Camden Council and 
 [Ben Unsworth](https://twitter.com/benunsworth), Head of Digital at Buckinghamshire County Council*
@@ -39,4 +39,4 @@ Taking a mission approach to set up a basis for collective action, we’re askin
 
 . . .
 
-*This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, **<a href="mailto:hello@wearefuturegov.com" onclick="gtag('event', 'Click', { 'event_category': 'Email' });">please get in touch.</a>***
+*This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, **<a href="mailto:hello@wearefuturegov.com" onclick="gtag('event', 'Click2', { 'event_category': 'Email' });">please get in touch.</a>***
