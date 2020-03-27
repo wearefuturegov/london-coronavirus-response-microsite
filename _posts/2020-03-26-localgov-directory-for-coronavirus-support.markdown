@@ -39,4 +39,4 @@ Taking a mission approach to set up a basis for collective action, we’re askin
 
 . . .
 
-*This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, [please get in touch](mailto:hello@wearefuturegov.com).*
+*This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, **<a href="mailto:hello@wearefuturegov.com" onclick="gtag('event', 'Click', { 'event_category': 'Email' });">please get in touch.</a>***
