@@ -26,7 +26,7 @@ Building on the code FutureGov developed with Buckinghamshire Council to develop
 
 This shared directory of local services brings together insight and data from digital customer experience and voluntary community services across boroughs. Through a single online portal, citizens will be able to access the information they need with signposting to voluntary community services, connect people to local support, whether that be food packages, medical help, mental health support, pet care and much more. Ultimately, reducing demand on council services and providing people with the help they need. 
 
-**The code is fully open source and shared on Github: <a href="http://github.com/wearefuturegov/camden-service-directory" onclick="gtag('event', 'Github1', { 'event_category': 'Url' });">take a look.</a>**
+**The code is fully open-source and shared on Github: <a href="http://github.com/wearefuturegov/camden-service-directory" onclick="gtag('event', 'Github1', { 'event_category': 'Url' });">take a look.</a>**
 
 Applying open data principles to building the directory, this platform is available and open for reuse by the rest of local public services. While specific to the current coronavirus-related needs, it can be easily adapted to all services in a local area. 
 
