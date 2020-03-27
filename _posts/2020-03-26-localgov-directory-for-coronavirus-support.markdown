@@ -3,6 +3,8 @@ title:  "A local public services directory for coronavirus support"
 date:   2020-03-23 19:50:31 +0000
 permalink: /blog/local-public-services-directory-coronavirus
 ---
+**[Get in touch for support to set and run up your directory.](mailto:hello@wearefuturegov.com)**
+
 *Written by [Emma McGowan](https://twitter.com/Emm_McG), Head of Digital Transformation at Camden Council and 
 [Ben Unsworth](https://twitter.com/benunsworth), Head of Digital at Buckinghamshire County Council*
 
@@ -35,4 +37,6 @@ Over the past two weeks, we’ve been bringing together a catalyst response team
 
 Taking a mission approach to set up a basis for collective action, we’re asking our network to join the coalition. Working together, owning this together, we can look at the most urgent challenges and coordinate an agile response to new ways of addressing shared problems during an emergency unlike any other.
 
-This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, [please get in touch](mailto:hello@wearefuturegov.com).
+. . .
+
+*This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, [please get in touch](mailto:hello@wearefuturegov.com).*
