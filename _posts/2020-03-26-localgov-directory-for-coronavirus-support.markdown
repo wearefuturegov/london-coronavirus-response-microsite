@@ -10,7 +10,7 @@ We’re in an unprecedented civic emergency. The coronavirus is rapidly changing
 
 To respond we need not only to stand up our core emergency planning, but develop new approaches that respond to challenges that are unique to this crisis in form or scale.
 
-As local authorities and health organisations respond, we’re recognizing that we have to go beyond our current service delivery remit, with a growing need to pivot resources and respond quickly. How do we deliver on core emergency planning while also developing new approaches that respond to unique challenges in form and scale?
+As local authorities and health organisations respond, we’re recognising that we have to go beyond our current service delivery remit, with a growing need to pivot resources and respond quickly. How do we deliver on core emergency planning while also developing new approaches that respond to unique challenges in form and scale?
 
 > “Everything we do before a pandemic will seem alarmist. Everything we do after will seem inadequate” - Mike Leavitt, Former Secretary, Department of Health and Human Services
 
@@ -35,4 +35,4 @@ Over the past two weeks, we’ve been bringing together a catalyst response team
 
 Taking a mission approach to set up a basis for collective action, we’re asking our network to join the coalition. Working together, owning this together, we can look at the most urgent challenges and coordinate an agile response to new ways of addressing shared problems during an emergency unlike any other.
 
-This directory is fully open source. Recognizing our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, [please get in touch](mailto:hello@wearefuturegov.com).
+This directory is fully open source. Recognising our shared rapid timescales, if you’d like to talk about any of this work or how we can support you, [please get in touch](mailto:hello@wearefuturegov.com).
