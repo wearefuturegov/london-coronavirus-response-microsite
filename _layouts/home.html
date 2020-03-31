@@ -31,6 +31,24 @@
 </section>
 
 <div class="main-content">
+    <section class="promos" id="challenge">
+        <div class="container">
+            <h2 class="promos__title">Challenge</h2>
+            <p>The challenge from TechForce19</p>
+            <ul class="promo-list">
+                {% for product in site.data.challenge %}
+                    <li class="promo">
+                        <a class="promo__link" href="{{ challenge.url }}">
+                            <h3 class="promo__title">{{ challenge.title }}</h3>
+                            <p class="promo__caption">{{ challenge.caption }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
+<div class="main-content">
     <section class="promos" id="products">
         <div class="container">
             <h2 class="promos__title">Products</h2>
