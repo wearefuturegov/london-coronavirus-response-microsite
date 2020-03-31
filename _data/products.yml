@@ -1,3 +1,11 @@
-- title: A coronavirus service directory
+- title: Coronavirus support service directory
   url: https://github.com/wearefuturegov/coronavirus-service-directory
-  caption: Support residents are staying at home
+  caption: Find the open source code for the directory
+  
+ - title: Camden Council coronavirus help directory
+  url: https://coronavirus-help.camden.gov.uk/
+  caption: Visit Camden's live directory
+  
+  - title: Buckinghamshire Council coronavirus help directory
+  url: https://directory.buckinghamshire.gov.uk/
+  caption: Visit Buckinghamshire's live directory
