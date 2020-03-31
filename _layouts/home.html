@@ -21,7 +21,7 @@
 
 <section class="partnerships">
     <div class="container">
-        <p>In partnership with</p>
+        <p class="promos__desc">In partnership with</p>
         <div class="partnerships__logos">
             <img src="/assets/bucks.svg" class="partnerships__logo" alt="Buckinghamshire County Council"/>
             <img src="/assets/camden.svg" class="partnerships__logo" alt="Camden Council"/>
@@ -36,7 +36,7 @@
     <section class="promos" id="challenge">
         <div class="container">
             <h2 class="promos__title">Challenge</h2>
-            <p>The challenge from TechForce19</p>
+            <p class="promos__desc">The challenge from TechForce19</p>
             <ul class="promo-list">
                 {% for product in site.data.challenge %}
                     <li class="promo">
@@ -50,11 +50,11 @@
         </div>
     </section>
 
-    
+
     <section class="promos" id="products">
         <div class="container">
             <h2 class="promos__title">Products</h2>
-            <p>All these are open source and open to re-use</p>
+            <p class="promos__desc">All these are open source and open to re-use</p>
             <ul class="promo-list">
                 {% for product in site.data.products %}
                     <li class="promo">
