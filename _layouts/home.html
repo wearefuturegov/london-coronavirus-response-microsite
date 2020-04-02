@@ -39,9 +39,9 @@
             <h2 class="promos__title">Challenge</h2>
             <p class="promos__desc">The challenge from TechForce19</p>
             <ul class="promo-list">
-                {% for product in site.data.challenge %}
+                {% for challenge in site.data.challenge %}
                     <li class="promo">
-                        <a class="promo__link" href="{{ challenge.url }}">
+                        <a class="promo__link" href="{{ challenge.url }}" target="_blank">
                             <h3 class="promo__title">{{ challenge.title }}</h3>
                             <p class="promo__caption">{{ challenge.caption }}</p>
                         </a>
