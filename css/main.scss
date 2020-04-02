@@ -34,16 +34,30 @@ p{
     margin: 0 auto;
 }
 
+#site-header__menu-btn:checked ~ .site-header__menu-nav {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: black;
+    left: 0;
+    margin-top: 15px;
+    .site-header__menu-link{
+        color: $green;
+        display: block;
+        margin-right: 0;
+        padding: 15px 30px;
+    }
+}
+
+
 .site-header{
     background: $green;
     padding: 20px;
     .site-header__inner{
-        @media screen and (min-width: $l-breakpoint){
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     .site-header__masthead{
         display: block;
@@ -56,26 +70,65 @@ p{
         }
     }
     .site-header__menu{
-        display: none;
-        @media screen and (min-width: $l-breakpoint){
+        .site-header__menu-nav {
+            display: none;
+            @media screen and (min-width: $l-breakpoint){
+                display: block;
+                position: static !important;
+                width: auto !important;
+                background: transparent !important;
+                left: 0;
+                margin-top: 0 !important;
+            }
+        }
+        input {
+            display: none;
+        }
+        .site-header__menu-btn {
+            font-size: 1.7rem;
+            color: $black;
+            font-weight: 900;
+            cursor: pointer;
             display: block;
+
+            &:hover {
+                text-decoration: underline;
+            }
+            .site-header__menu-btn__hamburger {
+                display: inline-block;
+                vertical-align: middle;
+                div {
+                    width: 15px;
+                    height: 3px;
+                    background: $black;
+                    margin-bottom: 3px;
+                }
+            }
+            @media screen and (min-width: $l-breakpoint) {
+                display: none;
+            }
         }
     }
     .site-header__menu-link{
         font-size: 1.7rem;
-        color: $black;
         font-weight: 900;
         text-decoration: none;
-        margin-right: 15px;
-        &:last-of-type{
-            margin-right: 0px;;
-        }
         &:hover{
             text-decoration: underline;
         }
         &:focus{
             background: $yellow;
             outline: 3px solid $yellow;
+        }
+
+        @media screen and (min-width: $l-breakpoint){
+            color: $black !important;
+            margin-right: 15px !important;
+            display: inline !important;
+            padding: 0 !important;
+            &:last-of-type{
+                margin-right: 0px !important;
+            }
         }
     }
 }
