@@ -57,23 +57,7 @@
 </section>
 
 <div class="main-content">
-    <section class="promos" id="challenge">
-        <div class="container">
-            <h2 class="promos__title">Challenge</h2>
-            <p class="promos__desc">The challenge from TechForce19</p>
-            <ul class="promo-list">
-                {% for challenge in site.data.challenge %}
-                    <li class="promo">
-                        <a class="promo__link" href="{{ challenge.url }}" target="_blank">
-                            <h3 class="promo__title">{{ challenge.title }}</h3>
-                            <p class="promo__caption">{{ challenge.caption }}</p>
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </section>
-
+ 
 
     <section class="promos" id="products">
         <div class="container">
@@ -123,6 +107,24 @@
             </ul>
         </div>
     </section> 
+    
+       <section class="promos" id="challenge">
+        <div class="container">
+            <h2 class="promos__title">Challenge</h2>
+            <p class="promos__desc">The challenge from TechForce19</p>
+            <ul class="promo-list">
+                {% for challenge in site.data.challenge %}
+                    <li class="promo">
+                        <a class="promo__link" href="{{ challenge.url }}" target="_blank">
+                            <h3 class="promo__title">{{ challenge.title }}</h3>
+                            <p class="promo__caption">{{ challenge.caption }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+
 
 </div>
 
