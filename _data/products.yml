@@ -1,3 +1,7 @@
+ - title: Beacon
+  url: https://beacon.support/
+  caption: Helping local public service partners understand and support the needs of their communities 
+
 - title: Coronavirus support service directory
   url: https://github.com/wearefuturegov/coronavirus-service-directory
   caption: Find the open source code for the directory
@@ -9,3 +13,4 @@
 - title: Buckinghamshire Council coronavirus help directory
   url: https://directory.buckinghamshire.gov.uk/
   caption: Visit Buckinghamshire's live directory
+ 
