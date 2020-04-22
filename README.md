@@ -15,7 +15,7 @@ bundle exec jekyll serve
 
 ...should do the job. it'll be on **localhost:4000**.
 
-content is in the `_data` and `_posts` folders. remember that yaml cares about indentation!.
+content is in the `_data` and `_posts` folders. remember that .yaml files care deeply about indentation!
 
 ## putting it on the web
 
