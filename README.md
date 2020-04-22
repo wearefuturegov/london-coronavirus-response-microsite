@@ -6,7 +6,7 @@ simple static site and jekyll blog
 
 ## running it locally
 
-you need ruby and jekyll install
+you need ruby and jekyll installed. [instructions on that here](https://jekyllrb.com/docs/installation/).
 
 ```
 bundle install
