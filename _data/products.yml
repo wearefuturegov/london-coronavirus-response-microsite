@@ -13,4 +13,7 @@
 - title: Buckinghamshire Council coronavirus help directory
   url: https://directory.buckinghamshire.gov.uk/
   caption: Visit Buckinghamshire's live directory
- 
+
+- title: Open Project System (OPS)
+  url: https://github.com/GreaterLondonAuthority/GLA-OPS
+  caption: An open source grant and project management system from Greater London Authority which organisations can use to submit bids for funding.
