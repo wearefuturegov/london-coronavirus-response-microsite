@@ -414,9 +414,9 @@ p{
         text-decoration: none;
         border-top: 5px solid $black;
         padding: 10px 0px;
-        &:hover {
-            border-top: 5px solid $green;
-        }
+        // &:hover {
+        //     border-top: 5px solid $green;
+        // }
         &:focus{
             background: $yellow;
             outline: none;
