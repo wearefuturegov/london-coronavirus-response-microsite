@@ -23,13 +23,18 @@ It’s crucial to recognise that residents are being made contextually vulnerabl
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
 
+<img src="/assets/blog understanding needs" alt="Understanding resident needs in Camden"/>
+
 *Shielded people*
+
 Medical professionals in England have identified specific conditions that, based on what we know about the virus so far, place someone at greatest risk of severe illness from COVID-19. This also includes people who have self-referred and over 70+ and the clinically extremely vulnerable. This group of people is represented in the blue circle of 1.5 million people identified as the most vulnerable.
 
 *People in contact with wider services*
+
 As we mentioned, the impact of COVID-19 reaches beyond those with immediate health concerns. There are many people who require additional support from the council and who, as a result of their situation, are at risk of becoming more vulnerable or requiring an additional level of support during the crisis. This group of residents likely have an existing relationship with some part of the council. They may understand how the council works as a source of support and already have an existing pathway or point of contact and may already know how to navigate council services - but those services may have changed as a result of COVID-19. This can include young people at risk, those experiencing domestic violence, someone receiving mental health support and many others.
 
 *People who may require support*
+
 There is additionally, a third group of people who are or may be made vulnerable as a result of COVID-19. This group of people likely do not have an existing relationship with the council and are new to navigating council services. As a result, they may need more support with service navigation and understanding how the council can support them. These residents may be self-employed households, bereaved families, renters, parents affected by school closures and many others.
 
 
