@@ -8,22 +8,20 @@ permalink: /blog/understanding-resident-needs-COVID-19
 
 COVID-19 has exposed deep social and economic inequalities within our society. Beyond its impact on our physical health, it is impacting people’s everyday lives as children are unable to attend school, parents and carers are unable to work and much of the population stays at home. Disproportionately impacting the vulnerable and marginalised, the pandemic is exacerbating challenges for residents already facing difficulty while also creating new challenges for people previously not considered 'at risk' but are now vulnerable.
 
-Citizen and community needs are constantly changing. Camden Council knew that while doing everything possible within the powers of the current service delivery remit, that alone would not be enough to respond to this crisis. Alongside an urgent need to deliver immediate support, we need to design medium-term solutions for those directly and indirectly affected by the pandemic over the coming months.
+Citizen and community needs are constantly changing. Alongside an urgent need to deliver immediate support, we need to design medium-term solutions for those directly and indirectly affected by the pandemic over the coming months.
 
 This starts with better understanding who in our communities is and could be particularly affected and designing how the council can be responsive to newly surfaced needs, while also preventing residents from falling into long-term vulnerability.
 
 
 ## Shifting from vulnerability to resident needs
 
-Working in a blended team of Camden Council and FutureGov staff, we drew on Camden’s robust understanding of resident needs and their strengths-based approach to resident engagement. With a considered approach, we needed to widen our definition of vulnerability beyond the government’s SHIELD group in order to design services that meet the needs of all vulnerable residents.
+With a considered approach, we needed to widen our definition of vulnerability beyond the government’s SHIELD group in order to design services that meet the needs of all vulnerable residents.
 
 Together we identified characteristics and situations that could lead people to become vulnerable as a result of the pandemic. However, it isn't as clear-cut as saying everyone in these groups will be vulnerable. 
 
 It’s crucial to recognise that residents are being made contextually vulnerable by COVID-19. What we mean by contextually vulnerable is that there’s a large group of people facing external pressures and changes, often by social and economic factors like not being able to go to work. This includes people who have not required council support before. Some people's needs will change, whilst others will not. New potentially vulnerable groups will also emerge as we move into the recovery.
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
-
-<img src="/assets/blog-understanding-user-needs-700x400.png" alt="Understanding resident needs in Camden"/>
 
 *Shielded people*
 
