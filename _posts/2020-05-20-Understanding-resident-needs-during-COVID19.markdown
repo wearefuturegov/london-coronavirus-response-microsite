@@ -23,7 +23,7 @@ It’s crucial to recognise that residents are being made contextually vulnerabl
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
 
-<img src="/assets/blog-understanding-users.png" alt="Understanding resident needs in Camden"/>
+<img src="/assets/blog-may-understanding-users.png" alt="Understanding resident needs in Camden"/>
 
 *Shielded people*
 
