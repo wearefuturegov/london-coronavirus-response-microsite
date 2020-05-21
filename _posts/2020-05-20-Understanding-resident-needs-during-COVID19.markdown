@@ -23,7 +23,7 @@ It’s crucial to recognise that residents are being made contextually vulnerabl
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
 
-<img src="blog-understanding-user-needs-v2.png" alt="Understanding user needs diagram">
+<img src="/assets/blog-understanding-user-needs-v2.png" alt="Understanding user needs diagram">
 
 *Shielded people*
 
