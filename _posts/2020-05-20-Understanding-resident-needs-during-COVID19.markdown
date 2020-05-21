@@ -23,6 +23,8 @@ It’s crucial to recognise that residents are being made contextually vulnerabl
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
 
+<img src="blog-understanding-user-needs-v2.png" alt="Understanding user needs diagram">
+
 *Shielded people*
 
 Medical professionals in England have identified specific conditions that, based on what we know about the virus so far, place someone at greatest risk of severe illness from COVID-19. This also includes people who have self-referred and over 70+ and the clinically extremely vulnerable. This group of people is represented in the blue circle of 1.5 million people identified as the most vulnerable.
