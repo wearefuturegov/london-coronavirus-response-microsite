@@ -15,7 +15,7 @@ This starts with better understanding who in our communities is and could be par
 
 ## Shifting from vulnerability to resident needs
 
-With a considered approach, we needed to widen our definition of vulnerability beyond the government’s SHIELD group in order to design services that meet the needs of all vulnerable residents.
+Working in a blended team with a local authority partner and FutureGov staff, we drew on a robust understanding of resident needs and strengths-based approach to resident engagement. With a considered approach, we needed to widen our definition of vulnerability beyond the government’s SHIELD group in order to design services that meet the needs of all vulnerable residents.
 
 Together we identified characteristics and situations that could lead people to become vulnerable as a result of the pandemic. However, it isn't as clear-cut as saying everyone in these groups will be vulnerable. 
 
