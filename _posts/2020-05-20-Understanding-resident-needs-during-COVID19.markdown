@@ -4,6 +4,8 @@ date:   2020-05-20 16:00:00 +0000
 permalink: /blog/understanding-resident-needs-COVID-19
 ---
 
+**<a href="https://docs.google.com/presentation/d/1BY5_wZAj7ZSRmO4XpjRCMrdY_2NnnoUiogRtf6dVvSA/edit?usp=sharing">Read the Coronavirus Local Response (COVID-19) Programme Final Show & Tell deck.</a>**
+
 *Written by [Eva O'Brien](https://blog.wearefuturegov.com/@evaobrien), Senior Delivery Manager at FutureGov*
 
 COVID-19 has exposed deep social and economic inequalities within our society. Beyond its impact on our physical health, it is impacting people’s everyday lives as children are unable to attend school, parents and carers are unable to work and much of the population stays at home. Disproportionately impacting the vulnerable and marginalised, the pandemic is exacerbating challenges for residents already facing difficulty while also creating new challenges for people previously not considered 'at risk' but are now vulnerable.
