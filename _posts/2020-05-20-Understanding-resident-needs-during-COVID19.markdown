@@ -12,8 +12,6 @@ Citizen and community needs are constantly changing. Camden Council knew that wh
 
 This starts with better understanding who in our communities is and could be particularly affected and designing how the council can be responsive to newly surfaced needs, while also preventing residents from falling into long-term vulnerability.
 
-<img src="/assets/blog-understanding-user-needs-700x400.png" alt="Understanding resident needs in Camden"/>
-
 
 ## Shifting from vulnerability to resident needs
 
@@ -25,7 +23,7 @@ It’s crucial to recognise that residents are being made contextually vulnerabl
 
 By understanding who these residents are, what their new needs may be and where some of the greatest needs are likely to be, councils are better placed to be responsive to shifting needs and proactive in adjusting service delivery.
 
-
+<img src="/assets/blog-understanding-user-needs-700x400.png" alt="Understanding resident needs in Camden"/>
 
 *Shielded people*
 
